@@ -120,7 +120,7 @@ body{
 	display: flex;
 	flex-direction: row;
 	justify-content: end;
-	margin-right: 10px;
+	margin: 10px;
 	align-items: center;
 	height: 30px;
 	vertical-align: middle;
@@ -153,8 +153,6 @@ h1{
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: cambios 5s linear infinite;
-
-   font-size: 4rem;
 }
 
 @keyframes cambios {
