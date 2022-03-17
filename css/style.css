@@ -148,6 +148,7 @@ h1{
   background-size: auto auto;
   background-clip: border-box;
   background-size: 200% auto;
+ 	background-clip: text;
  	color: black;
   text-fill-color: transparent;
   -webkit-background-clip: text;
