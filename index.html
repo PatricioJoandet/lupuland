@@ -11,153 +11,150 @@
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<!-- CSS PROPIO -->
 	<link rel="stylesheet" href="css/style.css">
+</head>
 <body>
 	<div class="">
-			<!-- inicio nav -->
-		<nav class="navbar navbar-expand-lg navbar-light bg-light w-100">
-  			<div class="container-fluid">
-    		<a class="navbar-brand " href="index.html">
-    			<img class="" src="img/Logo2.png" height="100px" width="100px" alt="">
-    		</a>
-    		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      			<span class="navbar-toggler-icon"></span>
-    		</button>
-    		<div class="collapse navbar-collapse" id="navbarSupportedContent">
-      			<ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        			<li class="nav-item">
-          				<a class="nav-link active" aria-current="page" href="#">Home</a>
-        			</li>
-        			<li class="nav-item">
-          				<a class="nav-link" href="#">Link</a>
-        			</li>
-        		<li class="nav-item dropdown">
-          			<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-			            Dropdown
-          			</a>
-          			<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            			<li><a class="dropdown-item" href="#">Action</a></li>
-            			<li><a class="dropdown-item" href="#">Another action</a></li>
-            			<li><hr class="dropdown-divider"></li>
-            			<li><a class="dropdown-item" href="#">Something else here</a></li>
-        			  </ul>
-       			 </li>
-      				<li class="nav-item">
-       	   				<a class="nav-link disabled">Disabled</a>
-        			</li>
-      			</ul>
-      		<form class="d-flex">
-        		<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        		<button class="btn btn-outline-success" type="submit">Search</button>
-      		</form>
-    		</div>
-  			</div>
-		</nav>
-			<!-- fin nav -->
-
-		<header class="header" id="header">
+		<header class="" id="header">
+		<!-- inicio nav -->
+			<nav class="navbar navbar-expand-lg navbar-light" id="botonera">
+  				<div class="container-fluid">
+	    				<a class="navbar-brand " href="index.html">
+	    					<img class="" src="img/Logo2.png" alt="">
+	    				</a>
+	    			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	      				<span class="navbar-toggler-icon"></span>
+	    			</button>
+	    			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+	      				<ul class="navbar-nav ms-auto mb-2 mb-lg-0" id="listaNav">	
+	        				<li class="nav-item">
+	        					<a class="nav-link " aria-current="page" href="index.html">Home</a>
+	        				</li>
+	        				<li class="nav-item">
+	          					<a class="nav-link" href="src/nosotros.html">Nosotros</a>
+	        				</li>
+	        				<li class="nav-item">
+	          					<a class="nav-link" href="src/experiencia.html">Experiencia</a>
+	        				</li>
+	        				<li class="nav-item">
+	          					<a class="nav-link" href="src/catalogo.html">Catálogo</a>
+	        				</li>
+	        				<li class="nav-item">
+	          					<a class="nav-link" href="src/resenas.html">Reseñas</a>
+	        				</li>
+	      				</ul>
+    				</div>
+  				</div>
+			</nav>
+		<!-- fin nav -->
 			<video class="w100 border-solid" autoplay muted loop src="img/video2.mp4"></video>
 		</header>
 		
 		<!-- inicio main -->
 		<main id="main">
-			
-			<section id="titulo" class="text-center">
-				<h1 id="titulo">Lúpuland, una tienda de cervezas bien lupuladas</h1>
-				<div class="inicio__box">
-					<p>En <b>Lúpuland</b> vas a encontrar las cervezas con más lúpulo y sabor del mercado.</p>
-					<p>Lorem ipsum, dolor sit amet consectetur, adipisicing elit. Ullam id nam, dignissimos. Pariatur obcaecati eaque soluta quibusdam alias odit libero quidem quam explicabo distinctio cum voluptates non tempore, dicta eveniet.</p>
-				</div>
+			<section class="container-fluid py-3">	
+				<div class="row">
+					<div class="">	
+						<h1 class="text-center" id="titulo">Lúpuland, una tienda de cervezas bien lupuladas</h1>
+						<div class="inicio__box text-center">
+							<p>En <b>Lúpuland</b> vas a encontrar las cervezas con más lúpulo y sabor del mercado.</p>
+							<p>Lorem ipsum, dolor sit amet consectetur, adipisicing elit. Ullam id nam, dignissimos. Pariatur obcaecati eaque soluta quibusdam alias odit libero quidem quam explicabo distinctio cum voluptates non tempore, dicta eveniet.</p>
+						</div>
+					</div> 	
+				</div>	
 			</section>
-
+			
 			<!-- inicio más vendidas -->
 
-			<section class="masVendidas text-center">
-				<h2 class="">Las más vendidas del mes</h2>
-				<div class="masVendidas__box" id="masVendidas" >
-					<div class="masVendidas__elementos masVendidas__grid" >
+			<section class="py-3 text-center">
+				<h1 class="">Las más vendidas del mes</h1>
+				<div class="container-fluid" id="masVendidas">
+					<div class="masVendidas__box">
+						<div class="row" >
+							<div id="vendida1" class="col-lg-3 col-sm-6">
+								<div class="cajaImg">	
+									<img src="img/cerveza1.png" alt="cerveza doble ipa" width="200" height="200" class="img p">
+									<div class="overlay">
+										<div class="textOver">4.5/5 &#9733</div>
+									</div>
+								</div>	
+									<p>Capitan Lupulo Outlandish Haze Doble IPA 473ml</p>
+									<p>$470</p>
+									<button class="button">Comprar</button>
+							</div>
 						
-						<div id="vendida1" class="">
-							<div class="cajaImg">	
-								<img src="img/cerveza1.png" alt="cevez doble ipa" width="200" height="200" class="img">
-								<div class="overlay">
-									<div class="textOver">4.5/5 &#9733</div>
+							<div id="vendida2" class="col-lg-3 col-sm-6">
+								<div class="cajaImg">
+									<img src="img/cerveza2.png" alt="cerveza patagonia" class="image"	 width="200" height="200">
+									<div class="overlay">
+										<div class="textOver">4.3/5 &#9733;</div>
+									</div>
 								</div>
-							</div>	
-								<p>Capitan Lupulo Outlandish Haze Doble IPA 473ml</p>
-								<p>$470</p>
-								<button class="button">Comprar</button>
-						</div>
-					
-						<div id="vendida2">
-							<div class="cajaImg">
-								<img src="img/cerveza2.png" alt="cerveza patagonia" class="image"	 width="200" height="200">
-								<div class="overlay">
-									<div class="textOver">4.3/5 &#9733;</div>
-								</div>
+									<p>Patagonia 24.7 IPA 410ml</p>
+									<p>$180</p>
+									<button class="button">Comprar</button>
 							</div>
-								<p>Patagonia 24.7 IPA 410ml</p>
-								<p>$180</p>
+						
+							<div id="vendida3" class="col-lg-3 col-sm-6">
+								<div class="cajaImg">
+									<img src="img/cerveza3.png" alt="cerveza strange" width="200" height="200">
+									<div class="overlay">
+										<div class="textOver"> 4.7/5 &#9733</div>
+									</div>
+								</div>	
+								<p>Strange Dios Mio Doble Neipa 473ml</p>
+								<p>$740</p>
 								<button class="button">Comprar</button>
-						</div>
-				
-						<div id="vendida3">
-							<div class="cajaImg">
-								<img src="img/cerveza3.png" alt="cerveza strange" width="200" height="200">
-								<div class="overlay">
-									<div class="textOver"> 4.7/5 &#9733</div>
-								</div>
-							</div>	
-							<p>Strange Dios Mio Doble Neipa 473ml</p>
-							<p>$740</p>
-							<button class="button">Comprar</button>
-						</div>
-				
-						<div id="vendida4">	
-							<div class="cajaImg">
-								<img src="img/cerveza4.png" alt="cerveza jarva5" width="200" height="200">
-								<div class="overlay">
-									<div class="textOver">4/5 &#9733</div>
-								</div>
 							</div>
-							<p>Pack Jarva 5 Johnnies IPA 473ml x6</p>
-							<p>$1425</p>
-							<button class="button">Comprar</button>
+						
+							<div id="vendida4" class="col-lg-3 col-sm-6">	
+								<div class="cajaImg">
+									<img src="img/cerveza4.png" alt="cerveza jarva5" width="200" height="200">
+									<div class="overlay">
+										<div class="textOver">4/5 &#9733</div>
+									</div>
+								</div>
+								<p>Pack Jarva 5 Johnnies IPA 473ml x6</p>
+								<p>$1425</p>
+								<button class="button">Comprar</button>
+							</div>
 						</div>
-					</div>
+					</div>	
 				</div>
 			</section>
-			<!-- fin más vendidas -->
-			<br><br>
-			<!-- inicio experiencia -->
-			<section class="experiencia__box">
-				<div class="experiencia__elementos">
-					<img src="img/experiencia.jpg" alt="Experiencia Lúpuland" width="300" height="auto">
-					<div class="experiencia__textos">
-						<h2>Experiencia Lúpuland</h2>
-						<p>Con la Experiencia Lúpuland, todos los meses recibiras en tu casa una exclusiva selección de cervezas lúpuladas.
-						<b>Conocé más sobre la Experiencia Lúpuland</b></p>
-						<a href="src/experiencia.html" class="bold">MÁS</a>
+				<!-- fin más vendidas -->
+				<br><br>
+				<!-- inicio experiencia -->
+			<section class="experiencia__box container-fluid">
+				<div class="row">	
+					<div class="experiencia__elementos">
+						<img src="img/experiencia.jpg" alt="Experiencia Lúpuland" class="col-lg-4 col-md-6 col-sm-6 col-xs-12" width="300" height="auto">
+						<div class="experiencia__textos col-lg-8 col-md-6 col-sm-6 col-xs-12">
+							<h2>Experiencia Lúpuland</h2>
+							<p>Con la Experiencia Lúpuland, todos los meses recibiras en tu casa una exclusiva selección de cervezas lúpuladas.
+							<b>Conocé más sobre la Experiencia Lúpuland</b></p>
+							<a href="src/experiencia.html" class="bold">MÁS</a>
+						</div>
 					</div>
 				</div>
 			</section>
 			<!-- fin experiencia -->
 			<br><br>
 			<!-- inicio reseñas -->
-			<section class="opiniones">
+			<section class="container-fluid	 opiniones">
 				<h2 class="text-center">Opiniones de nuestros clientes</h2>
-				<div>
+				<div class="row center">
 					<div class="opiniones__elementos text-center" id="opiniones">
-						<figure class="opiniones__box">
+						<figure class=" opiniones__box">
 							<img src="img/reseña1.png" alt="cerveza Dark Vader" width="150" height="150">
 							<p class="bold">Amarga sabor fuerte</p>
 							<p>Bien fría va cómo piña. Si les gusta sabor amargo e intenso esta es la cerveza.</p>
 						</figure>
-						<figure class="opiniones__box" >
+						<figure class=" opiniones__box" >
 							<img src="img/reseña2.png" alt="cerveza Goose island" width="100" height="150">
 							<p class="bold">TREMENDA IPA!!!!</p>
 							<p>RIQUISIMA. AROMATICA. AMARGOR PERFECTO. SE LLEVA TODOS MIS APLAUSOS. HIPER RECOMENDABLE.</p>
 						</figure>
-						<figure class="opiniones__box">
+						<figure class=" opiniones__box">
 							<img src="img/reseña3.png" alt="cerveza Vulcano" width="150" height="150">
 							<p class="bold">Muy rica</p>
 							<p>Bastante suave, amargor ideal</p>

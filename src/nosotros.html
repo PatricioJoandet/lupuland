@@ -5,32 +5,50 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Lúpuland - Sobre Nosotros</title>
 	<link rel="shortcut icon" href="../img/fav.png">
+	<!-- CSS BOOTSTRAP -->
+	
+	<link href="../css/bootstrap.min.css" rel="stylesheet">
+	<!-- CSS PROPIO -->
 	<link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-	<div class="container">
 	
-			<!-- inicio nav -->
-			<nav class="nav" id="nav">
-				<a href="../index.html">
-					<img src="../img/Logo2.png" id="arriba" alt="Logo" width="100" height="100">
+	<header class="" id="header">
+		<!-- inicio nav -->
+		<nav class="navbar navbar-expand-lg navbar-light" id="botonera">
+	  		<div class="container-fluid">
+				<a class="navbar-brand " href="../index.html">
+					<img class="" src="../img/Logo2.png" alt="">
 				</a>
-				<ul>
-					<li><a href="../index.html">Home</a></li>
-					<li><a href="nosotros.html">Sobre nosotros</a></li>
-					<li><a href="experiencia.html">Experiencia</a></li>
-					<li><a href="catalogo.html">Catálogo</a></li>
-					<li><a href="reseñas.html">Reseñas</a></li>
-					<li><img src="../img/carrito.png" alt="Carrito" id="carrito"></li>
-				</ul>
-			</nav>
-			<!-- fin nav -->
-
-		<header class="header" id="header">
-			<section>
-				<video class="w100 border-solid" id="videoNst" src="../img/nosotros.mp4" height="auto" autoplay muted loop width="1280" height="720"></video>
-			</section>
-		</header>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+		 		</button>
+		    	<div class="collapse navbar-collapse" id="navbarSupportedContent">
+		      		<ul class="navbar-nav ms-auto mb-2 mb-lg-0" id="listaNav">	
+		        		<li class="nav-item">
+		        			<a class="nav-link " aria-current="page" href="../index.html">Home</a>
+		        		</li>
+		        		<li class="nav-item">
+		          			<a class="nav-link" href="nosotros.html">Nosotros</a>
+		        		</li>
+		        		<li class="nav-item">
+		          			<a class="nav-link" href="experiencia.html">Experiencia</a>
+		        		</li>
+		        		<li class="nav-item">
+		          			<a class="nav-link" href="catalogo.html">Catálogo</a>
+		        		</li>
+		        		<li class="nav-item">
+		          			<a class="nav-link" href="resenas.html">Reseñas</a>
+		        		</li>
+		      		</ul>
+	    		</div>
+	  		</div>
+		</nav>
+		<!-- fin nav -->
+		<section>
+			<video class="w100 border-solid" id="videoNst" src="../img/nosotros.mp4" height="auto" autoplay muted loop width="1280" height="720"></video>
+		</section>
+	</header>
 		<!-- inicio main -->
 		<main id="main">
 			<section class="nosotros">
@@ -67,5 +85,7 @@
 		</footer>
 		<!-- fin footer -->
 	</div>
+	<!-- SCRIPT JS -->
+	<script src="../js/bootstrap.min.js"></script>	
 </body>
 </html>
