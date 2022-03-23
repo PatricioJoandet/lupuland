@@ -372,18 +372,6 @@ h1{
 	}
 }
 
-@media only screen and (max-width: 1134px){
-	.catalogo{
-		grid-template-columns: repeat(3, 1fr);
-		grid-template-areas: "catalogo1 catalogo2 catalogo3" "catalogo4 catalogo5 catalogo6" "catalogo7 catalogo8 catalogo9" ". catalogo10 .";
-	}
-}
-
-@media only screen and (max-width: 1000px){
-
-}
-
-
 @media only screen and (max-width: 600px){
 
 	.nav{
