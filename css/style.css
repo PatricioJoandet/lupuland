@@ -341,9 +341,6 @@ h1{
 	width: 100%;
 }
 
-.bold{
-	font-weight: 600;
-}
 
 .border-solid{
 	border: solid black 2px;
@@ -367,38 +364,7 @@ h1{
   border-radius: 15%;
 }
 
-
-
-
-@media only screen and (max-width: 1400px){
-	.nosotros__box{
-		flex-direction: column;
-	}
-}
-
 @media only screen and (max-width: 600px){
-
-	.nav{
-		flex-direction: column;
-		flex-wrap: wrap;
-		align-items: center;
-		width: 100vh;
-		justify-content: center;
-		
-	}
-
-	.nav ul li a{
-		font-size: 1.5rem;
-		padding: 10px;
-	}
-
-	.footer{
-		width: 100%;
-	}
-
-	#header video{
-		width: 100%;
-	}
 
 	h1{
 		font-size: 3rem;
@@ -427,16 +393,8 @@ h1{
 		overflow-x: hidden;
 	}
 
-	.masVendidas__grid{
-		display: grid;
-		grid grid-template-columns: 2fr;
-		grid-template-rows: auto;
-		grid-template-areas: "vendida1 vendida2" "vendida3 vendida4";
-	}
-
 	.experiencia__box{
 		width: 50%;
-		;
 	}
 
 	.experiencia__elementos{
@@ -474,10 +432,6 @@ h1{
 	.nosotros__box img{
 		width: 400px;
 	}
-
-
-
-
 
 	.planes__box ul li p{
 		font-size: 2rem;
