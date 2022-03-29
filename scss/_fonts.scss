@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap');
+
+$titulo: 3rem;
+$subtitulo: 2rem;
+$parrafo: 1.2rem;
+
+h1,h2{
+	font-family: 'Bebas Neue', cursive;
+
+}
+h1{
+	font-size: $titulo;
+}
+
+h2{
+	font-size: $subtitulo;
+}
+
+p{
+	font-size: $parrafo;
+	color: black;
+	line-height: 1.4rem;
+}
+
+a{
+	font-size: 1.3rem;
+}

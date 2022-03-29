@@ -1,0 +1,18 @@
+#botonera{
+	background-color: gray;
+	img{
+		width: 100px;
+	}
+		li a{
+			font-size: 1.4rem;
+			text-decoration: none;
+			color: black;
+			&:hover{
+				color: wheat;
+				font-weight: 600;
+				&:active{
+					color: yellow;
+				}
+			}
+		}
+}
