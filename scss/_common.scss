@@ -10,3 +10,15 @@ body{
 	box-sizing: border-box;
 	overflow-x: hidden;
 }	
+
+$colores: (
+	'uno': grey,
+	'dos': wheat,
+	'tres': red,
+	'cuatro': black,
+	'cinco': yellow,
+	'seis': rgba(255, 255, 255, .5),
+	'siete': green,
+	'ocho': white,
+	'nueve': crimson
+	);
