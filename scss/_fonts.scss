@@ -1,8 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap');
 
+@mixin textos($font-size, $color, $line-height){
+	font-size: $font-size;
+	color: map-get($colores, $key:$color);
+	line-height: $line-height;
+}
+
 $titulo: 3rem;
 $subtitulo: 2rem;
-$parrafo: 1.2rem;
 
 h1,h2{
 	font-family: 'Bebas Neue', cursive;
@@ -17,9 +22,7 @@ h2{
 }
 
 p{
-	font-size: $parrafo;
-	color: black;
-	line-height: 1.4rem;
+	@include textos(1.2rem,'cuatro',1.4rem)
 }
 
 a{
