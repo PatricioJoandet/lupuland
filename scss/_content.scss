@@ -172,6 +172,7 @@ h1{
 
 .nosotros__textos{
 	flex-direction: row;
+	margin: 10px
 }
 
 .planes__box{
@@ -243,6 +244,21 @@ h1{
 	  background-color: map-get($colores, $key:'tres');
   	border-radius: 15%;
   }
+}
+
+.button__resenas{
+	@extend .button;
+	&:hover{
+		background-color: map-get($colores, $key:'diez');
+	}
+}
+
+.button__resenas--del{
+	@extend .button;
+	background-color: map-get($colores, $key:'tres');
+	&:hover{
+		background-color: map-get($colores, $key:'nueve');
+	}
 }
 
 @media only screen and (max-width: 600px){

@@ -177,7 +177,8 @@ h1 {
   display: flex; }
 
 .nosotros__textos {
-  flex-direction: row; }
+  flex-direction: row;
+  margin: 10px; }
 
 .planes__box {
   height: 100%;
@@ -222,7 +223,7 @@ h1 {
   border: solid black 2px;
   box-sizing: border-box; }
 
-.button {
+.button, .button__resenas, .button__resenas--del {
   background-color: green;
   border: none;
   color: white;
@@ -231,10 +232,18 @@ h1 {
   text-decoration: none;
   display: inline-block;
   font-size: 16px; }
-  .button:hover {
+  .button:hover, .button__resenas:hover, .button__resenas--del:hover {
     color: white;
     background-color: red;
     border-radius: 15%; }
+
+.button__resenas:hover {
+  background-color: blue; }
+
+.button__resenas--del {
+  background-color: red; }
+  .button__resenas--del:hover {
+    background-color: crimson; }
 
 @media only screen and (max-width: 600px) {
   h1 {
