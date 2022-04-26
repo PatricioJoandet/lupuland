@@ -44,8 +44,27 @@
   				</div>
 			</nav>
 		<!-- fin nav -->
-		
-		<img class="img-fluid border-solid" src="../img/fondo.jpg" alt="Distintas cervezas">
+		<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+		  <div class="carousel-inner border-solid">
+		    <div class="carousel-item active">
+		      <img src="../img/fondo.jpg" class="d-block w-100" alt="...">
+		    </div>
+		    <div class="carousel-item">
+		      <img src="../img/fondo2.jpg" class="d-block w-100" alt="...">
+		    </div>
+		    <div class="carousel-item">
+		      <img src="../img/fondo3.jpg" class="d-block w-100" alt="...">
+		    </div>
+		  </div>
+		  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+		    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		    <span class="visually-hidden">Previous</span>
+		  </button>
+		  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+		    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+		    <span class="visually-hidden">Next</span>
+		  </button>
+		</div>
 	</header>
 		<!-- inicio main -->
 		<main id="main">
@@ -53,7 +72,7 @@
 			<h1 class="text-center">Catálogo</h1>
 			<!-- inicio catalogo -->
 			<section class="text-center container-fluid " id="catalogo">
-				<div class="row">
+				<div class="row justify-content-center">
 					<div class="catalogo__box col-md-6 col-lg-3" id="">
 						<div class="cajaImg">
 							<img class="img p" src="../img/cerveza1.png" alt="Doble Ipa Cptan Lúpulo 473ml" width="200" height="200">
@@ -63,7 +82,7 @@
 						</div>
 						<p>Capitan Lúpulo Outlandish Haze Doble IPA 473ml</p>
 						<p>$470</p>
-						<button class="button">Comprar</button>
+						<button class="button mb-1">Comprar</button>
 					</div>
 					<div class="catalogo__box col-md-6 col-lg-3" id="">
 						<div class="cajaImg">
@@ -74,7 +93,7 @@
 						</div>
 						<p>Patagonia 24.7 410ml</p>
 						<p>$180</p>
-						<button class="button">Comprar</button>
+						<button class="button mb-1">Comprar</button>
 					</div>	
 					<div class="catalogo__box col-md-6 col-lg-3" id="">
 						<div class="cajaImg">
@@ -85,7 +104,7 @@
 						</div>
 						<p>Strange Dios Mio Man Doble Neipa 473ml</p>
 						<p>$740</p>
-						<button class="button">Comprar</button>
+						<button class="button mb-1">Comprar</button>
 					</div>	
 					<div class="catalogo__box col-md-6 col-lg-3" id="Pack Jarva 5 Ipa 473ml x6">
 						<div class="cajaImg">
@@ -96,7 +115,7 @@
 						</div>
 						<p>Pack Jarva 5 Johnnies IPA 473ml x6</p>
 						<p>$1425</p>
-						<button class="button">Comprar</button>
+						<button class="button mb-1">Comprar</button>
 					</div>	
 					<div class="catalogo__box col-md-6 col-lg-3" id="">
 						<div class="cajaImg">
@@ -107,7 +126,7 @@
 						</div>
 						<p>Peñon del Aguila Bazinga Session IPA 473ml</p>
 						<p>$320</p>
-						<button class="button">Comprar</button>
+						<button class="button mb-1">Comprar</button>
 					</div>	
 					<div class="catalogo__box col-md-6 col-lg-3" id="">
 						<div class="cajaImg">
@@ -118,7 +137,7 @@
 						</div>
 						<p>Capitan Lupulo Sour Patch IPA 473ml</p>
 						<p>$400</p>
-						<button class="button">Comprar</button>
+						<button class="button mb-1">Comprar</button>
 					</div>	
 					<div class="catalogo__box col-md-6 col-lg-3" id="">
 						<div class="cajaImg">
@@ -129,7 +148,7 @@
 						</div>
 						<p>Minga London Dragon NEIPA 473ml</p>
 						<p>$660</p>
-						<button class="button">Comprar</button>
+						<button class="button mb-1">Comprar</button>
 					</div>	
 					<div class="catalogo__box col-md-6 col-lg-3" id="">
 						<div class="cajaImg">
@@ -140,9 +159,9 @@
 						</div>
 						<p>Antares Juicy IPA 473ml</p>
 						<p>$470</p>
-						<button class="button">Comprar</button>
+						<button class="button mb-1">Comprar</button>
 					</div>	
-					<div class="catalogo__box col-md-6 col-lg-6" id="">
+					<div class="catalogo__box col-md-6 col-lg-3" id="">
 						<div class="cajaImg">
 							<img class="image" src="../img/cerveza9.png" alt="Patagonia Sendero Sur 473ml" width="200" height="200">
 							<div class="overlay">
@@ -151,9 +170,9 @@
 						</div>
 						<p>Patagonia Sendero Sur 473ml</p>
 						<p>$190</p>
-						<button class="button">Comprar</button>
+						<button class="button mb-1">Comprar</button>
 					</div>
-					<div class="catalogo__box col-md-6 col-lg-6" id="">
+					<div class="catalogo__box col-md-6 col-lg-3" id="">
 						<div class="cajaImg">
 							<img class="image" src="../img/cerveza10.png" alt="Retro geek Ipa 473ml" width="200" height="200">
 							<div class="overlay">
@@ -162,7 +181,7 @@
 						</div>
 						<p>Retro Geek Super Street IPA 473ml</p>
 						<p>$310</p>
-						<button class="button">Comprar</button>
+						<button class="button mb-1">Comprar</button>
 					</div>
 				</div>
 			</section>>

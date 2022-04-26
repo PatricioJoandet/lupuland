@@ -190,9 +190,14 @@ h1{
 .catalogo__box{
 	height: auto;
 	border: none;
-	background-color: rgba(255, 255, 255, .5);
 	box-sizing: border-box;
 	overflow-x: auto;
+	margin: 10px;
+	background: rgba( 255, 255, 255, 0.5 );
+	
+	backdrop-filter: blur( 1px );
+	-webkit-backdrop-filter: blur( 1px );
+	border-radius: 10px;
 }	
 
 #pag ul li a{
@@ -333,3 +338,4 @@ h1{
 	}
 
 }
+
