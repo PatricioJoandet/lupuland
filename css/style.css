@@ -25,7 +25,7 @@ p {
   line-height: 1.4rem; }
 
 a {
-  font-size: 1.3rem; }
+  font-size: 1rem; }
 
 #botonera {
   background-color: gray; }
@@ -143,7 +143,7 @@ h1 {
   overflow-x: hidden;
   box-sizing: border-box; }
 
-.experiencia__box, .opiniones__box, .nosotros__box {
+.experiencia__box, .opiniones__box {
   width: 80%;
   margin: 30px auto;
   padding: 20px 30px;
@@ -179,11 +179,22 @@ h1 {
   flex-direction: row; }
 
 .nosotros__box {
-  display: flex; }
+  height: auto;
+  margin: 5px;
+  border: none;
+  box-sizing: border-box;
+  overflow-x: auto;
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(1px);
+  -webkit-backdrop-filter: blur(1px);
+  border-radius: 10px; }
 
 .nosotros__textos {
   flex-direction: row;
   margin: 10px; }
+
+.boxImg img {
+  width: auto; }
 
 .planes__box {
   height: 100%;
@@ -200,7 +211,6 @@ h1 {
   border: none;
   box-sizing: border-box;
   overflow-x: auto;
-  margin: 10px;
   background: rgba(255, 255, 255, 0.5);
   backdrop-filter: blur(1px);
   -webkit-backdrop-filter: blur(1px);
@@ -254,6 +264,20 @@ h1 {
   .button__resenas--del:hover {
     background-color: crimson; }
 
+.linkPlain {
+  text-decoration: none; }
+
+.error {
+  width: auto;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18); }
+  .error img {
+    width: 70%; }
+
 @media only screen and (max-width: 600px) {
   h1 {
     font-size: 3rem; }
@@ -269,7 +293,7 @@ h1 {
     display: grid; }
   .masVendidas__elementos {
     overflow-x: hidden; }
-  .experiencia__box, .opiniones__box, .nosotros__box {
+  .experiencia__box, .opiniones__box {
     width: 70%; }
   .experiencia__elementos {
     flex-direction: column;

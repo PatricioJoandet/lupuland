@@ -19,6 +19,7 @@
 	filter: drop-shadow(10px 10px 10px map-get($colores, $key:'nueve'));
 }
 
+
 h1{
   background-image: linear-gradient(
     -225deg,
@@ -172,13 +173,26 @@ h1{
 }
 
 .nosotros__box{
-	@extend .experiencia__box;
-	display: flex;
+	height: auto;
+	margin: 5px;
+	border: none;
+	box-sizing: border-box;
+	overflow-x: auto;
+	background: rgba( 255, 255, 255, 0.5 );
+	backdrop-filter: blur( 1px );
+	-webkit-backdrop-filter: blur( 1px );
+	border-radius: 10px;
 }
 
 .nosotros__textos{
 	flex-direction: row;
 	margin: 10px
+}
+
+.boxImg{
+	img{
+		width: auto;
+	}
 }
 
 .planes__box{
@@ -198,7 +212,6 @@ h1{
 	border: none;
 	box-sizing: border-box;
 	overflow-x: auto;
-	margin: 10px;
 	background: rgba( 255, 255, 255, 0.5 );
 	backdrop-filter: blur( 1px );
 	-webkit-backdrop-filter: blur( 1px );
@@ -271,6 +284,24 @@ h1{
 	}
 }
 
+.linkPlain{
+	text-decoration: none;
+	}
+
+.error{
+	width: auto;
+	background: rgba( 255, 255, 255, 0.25 );
+	box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+	backdrop-filter: blur( 4px );
+	-webkit-backdrop-filter: blur( 4px );
+	border-radius: 10px;
+	border: 1px solid rgba( 255, 255, 255, 0.18 );
+	img{
+		width: 70%;
+	}
+}
+
+
 @media only screen and (max-width: 600px){
 
 	h1{
@@ -341,6 +372,4 @@ h1{
 	.planes__box ul li p{
 		font-size: 2rem;
 	}
-
 }
-
